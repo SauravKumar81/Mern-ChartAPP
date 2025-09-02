@@ -2,26 +2,28 @@
 
 ![Demo App](demo.png)
 
-Highlights:
 
-- 🌐 Real-time Messaging with Typing Indicators & Reactions
-- 📹 1-on-1 and Group Video Calls with Screen Sharing & Recording
-- 🔐 JWT Authentication & Protected Routes
-- 🌍 Language Exchange Platform with 32 Unique UI Themes
-- ⚡ Tech Stack: React + Express + MongoDB + TailwindCSS + TanStack Query
-- 🧠 Global State Management with Zustand
-- 🚨 Error Handling (Frontend & Backend)
-- 🚀 Free Deployment
-- 🎯 Built with Scalable Technologies like Stream
+## ✨ Highlights
+
+- 🌐 **Real-time Messaging** with Typing Indicators & Reactions  
+- 📹 **1-on-1 & Group Video Calls** with Screen Sharing & Recording  
+- 🔐 **JWT Authentication** & Protected Routes  
+- 🎨 **32 Unique UI Themes** for personalized experience  
+- ⚡ **Tech Stack**: React + Express + MongoDB + TailwindCSS + TanStack Query  
+- 🧠 **Global State Management** with Zustand  
+- 🚨 **Error Handling** (Frontend & Backend)  
+- 🚀 **Free Deployment Ready**  
+- 🎯 **Scalable Technologies** powered by Stream  
 - ⏳ And much more!
 
 ---
 
-## 🧪 .env Setup
+## 🧪 Environment Setup
 
 ### Backend (`/backend`)
+Create a `.env` file:
 
-```
+```env
 PORT=5001
 MONGO_URI=your_mongo_uri
 STEAM_API_KEY=your_steam_api_key
@@ -31,26 +33,31 @@ NODE_ENV=development
 ```
 
 ### Frontend (`/frontend`)
+Create a `.env` file:
 
-```
+```env
 VITE_STREAM_API_KEY=your_stream_api_key
 ```
 
 ---
 
-## 🔧 Run the Backend
+## 🔧 Run Locally
 
+### Backend
 ```bash
 cd backend
 npm install
 npm run dev
 ```
 
-## 💻 Run the Frontend
-
+### Frontend
 ```bash
 cd frontend
 npm install
 npm run dev
 ```
-# new
+
+---
+
+## 🚀 Deployment
+Easily deploy on free platforms like **Vercel**, **Netlify**, or **Render**.  
